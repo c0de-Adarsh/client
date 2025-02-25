@@ -33,7 +33,7 @@ const BrandingSection = () => {
           {/* Right Image */}
           <div className="relative h-full">
             <img 
-              src="https://images.unsplash.com/photo-1604076913837-52ab5629fba9?auto=format&fit=crop&q=80"
+              src="./images/img.jpg"
               alt="Creative Eye Art"
               className="w-full h-full object-cover"
             />

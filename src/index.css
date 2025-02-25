@@ -7,3 +7,28 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
+/* Custom colors for brown and cursive font (you can adjust or use Tailwind's color palette) */
+.text-brown-800 { color: #3c2f2f; }
+.font-cursive { font-family: 'Pacifico', cursive; } /* Add Pacifico or a similar cursive font via Google Fonts or your choice */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header {
+    @apply flex-col items-center text-center;
+  }
+
+  header div {
+    @apply w-full mb-4;
+  }
+
+  .flex-end {
+    @apply items-center;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-3xl { @apply text-xl; }
+  .text-2xl { @apply text-lg; }
+  .text-xl { @apply text-base; }
+}
